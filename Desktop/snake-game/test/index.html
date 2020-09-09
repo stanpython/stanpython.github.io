@@ -1,0 +1,27 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Snake</title>
+  <link rel="stylesheet" href="./../src/styles.css">
+</head>
+  <link rel="stylesheet" href="./../lib/mocha/mocha.css" />
+<body>
+  <div id="board"></div>
+  <div id="mocha"></div>
+  <script src="./../lib/sinonjs/sinon.js"></script>
+  <script src="./../lib/mocha/mocha.js"></script>
+  <script>mocha.setup('bdd');</script>
+  <script src="./../lib/expect/index.js"></script>
+  <script src="./../lib/jquery/dist/jquery.js"></script>
+  <script src="./../src/Head.js"></script>
+  <script src="./../src/Body.js"></script>
+  <script src="./../src/Apple.js"></script>
+  <script src="./../src/main.js"></script>
+  <script src='index.js'></script>
+  <script>
+    clock = sinon.useFakeTimers();
+    mocha.globals();
+    mocha.run();
+  </script>
+</body>
+</html>

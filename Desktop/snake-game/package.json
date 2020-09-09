@@ -1,0 +1,14 @@
+{
+  "name": "unit-4-snake",
+  "version": "1.0.0",
+  "description": "##Summary Snake is one of the first mobile games in development. We will be creating a browser based version using our understanding of OOP and DOM manipulation.",
+  "main": "index.js",
+  "devDependencies": {
+    "eslint": "^2.13.1",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-plugin-import": "^1.9.2",
+    "eslint-plugin-react": "^5.2.2"
+  },
+  "author": "",
+  "license": "ISC"
+}
