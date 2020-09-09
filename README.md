@@ -1,1 +1,1 @@
-# CS20-Hackathon
+# Snake-Game
