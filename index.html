@@ -1,66 +1,73 @@
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <title>Snake</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
-    <script src="src/Head.js"></script>
-    <script src="src/Body.js"></script>
-    <script src="src/Apple.js"></script>
-    <link rel="stylesheet" href="src/styles.css" />
-    <link href="https://db.onlinewebfonts.com/c/b2e75c336df191233b3096682c9ee6be?family=PixelarRegularW01-Regular" rel="stylesheet" type="text/css" />
-  </head>
 
-  <body>
-    <!-- <embed src="./-Yakety Sax- Music.mp3" autostart="true" loop="true"
+<head>
+  <meta charset="UTF-8" />
+  <title>Snake</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
+  <script src="src/Head.js"></script>
+  <script src="src/Body.js"></script>
+  <script src="src/Apple.js"></script>
+  <link rel="stylesheet" href="src/styles.css" />
+  <link href="https://db.onlinewebfonts.com/c/b2e75c336df191233b3096682c9ee6be?family=PixelarRegularW01-Regular"
+    rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <!-- <embed src="./-Yakety Sax- Music.mp3" autostart="true" loop="true"
 width="2" height="0">
 </embed> -->
-    <!-- <audio controls autoplay>
+  <!-- <audio controls autoplay>
   <source src="./-Yakety Sax- Music.mp3" type="audio/mpeg">
 </audio> -->
-    <!-- <embed type="application/x-shockwave-flash" flashvars="/-Yakety Sax- Music.mp3"
+  <!-- <embed type="application/x-shockwave-flash" flashvars="/-Yakety Sax- Music.mp3"
     src="http://www.google.com/reader/ui/3523697345-audio-player.swf" width="400" height="27" quality="best"></embed> -->
-    <!-- <img src="./jungle.jpeg" width="100%"> -->
-    <!-- <img src="./snake_face.png" alt=""> -->
+  <!-- <img src="./jungle.jpeg" width="100%"> -->
+  <!-- <img src="./snake_face.png" alt=""> -->
 
-    <!-- <iframe src="./-Yakety Sax- Music.mp3" allow="autoplay" style="display:none" id="iframeAudio"></iframe> -->
-    <audio id="my_audio" loop="loop" src="/-Yakety Sax- Music.mp3" type="audio/mpeg">
-      Your browser does not support the
-      <code>audio</code> element.
-    </audio>
+  <!-- <iframe src="./-Yakety Sax- Music.mp3" allow="autoplay" style="display:none" id="iframeAudio"></iframe> -->
+  <audio id="my_audio" loop="loop" src="/-Yakety Sax- Music.mp3" type="audio/mpeg">
+    Your browser does not support the
+    <code>audio</code> element.
+  </audio>
 
-    <div class="scoreBoard">
-      <p>Score: <span>0</span></p>
+  <div class="scoreBoard">
+    <p>Score: <span>0</span></p>
+  </div>
+  <iframe src="https://giphy.com/embed/d2Z7NqwF3yImFNHW" width="250" frameborder="0" class="giphy-embed"
+    allowfullscreen></iframe>
+
+  <center>
+    <div class="welcome">
+      <p class="title">_Snake_Case_</p>
+      <hr />
+      <p class="description">
+        Welcome to the Jungle. Use arrow keys to eat as many apples as you can! Don't go outside your snake pit. Dangers
+        and predators lie in wait.
+      </p>
+      <p class="authors">Stan & Matt</p>
+      <div><button class="start">Start Slithering</button></div>
     </div>
-    <iframe src="https://giphy.com/embed/d2Z7NqwF3yImFNHW" width="250" frameborder="0" class="giphy-embed" allowfullscreen></iframe>
+  </center>
 
-    <center>
-      <div class="welcome">
-        <p class="title">_Snake_Case_</p>
-        <hr />
-        <p class="description">
-          Welcome to the Jungle. Use arrow keys to eat as many apples as you can! Don't go outside your snake pit. Dangers and predators lie in wait.
-        </p>
-        <p class="authors">Stan & Matt</p>
-        <div><button class="start">Start Slithering</button></div>
-      </div>
-    </center>
+  <center>
+    <div class="youLost">
+      <p class="title">You Lost!!</p>
+      <center>
+        <iframe src="https://giphy.com/embed/wlw7KJDKbesfK" width="480" height="217" frameborder="0"
+          class="giphy-embed2" allowfullscreen></iframe>
+      </center>
+      <button class="reload">Play Again</button>
+    </div>
+  </center>
 
-    <center>
-      <div class="youLost">
-        <p class="title">You Lost!!</p>
-        <center>
-          <iframe src="https://giphy.com/embed/wlw7KJDKbesfK" width="480" height="217" frameborder="0" class="giphy-embed2" allowfullscreen></iframe>
-        </center>
-        <button class="reload">Play Again</button>
-      </div>
-    </center>
+  <!-- <div class=></div> -->
 
-    <!-- <div class=></div> -->
+  <center>
+    <div id="board"></div>
+  </center>
+  <script src="./src/main.js"></script>
+  <iframe src="https://giphy.com/embed/1hmYUypBvt53hZHiTA" width="250" height="270" frameborder="0" class="giphy-embed3"
+    allowfullscreen></iframe>
+</body>
 
-    <center>
-      <div id="board"></div>
-    </center>
-    <script src="./src/main.js"></script>
-    <iframe src="https://giphy.com/embed/1hmYUypBvt53hZHiTA" width="250" height="270" frameborder="0" class="giphy-embed3" allowfullscreen></iframe>
-  </body>
 </html>
